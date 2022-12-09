@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-  public int[] jellyGoldList;
+  public Sprite[] dagomSpriteList;
+  public string[] dagomNameList;
+  public int[] dagomExpList;
+  public int[] dagomCoinList;
+
   public Vector3[] PointList;
+
   public RuntimeAnimatorController[] LevelAc;
   public void ChangeAc(Animator anim, int level)
   {
