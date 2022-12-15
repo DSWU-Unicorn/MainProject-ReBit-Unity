@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     // public DataController dataController;
     public Text goldPerClickDisplayer;
     public Text goldPerSecDisplayer;
+    public Text LightDisplayer;
 
     //==
     //== 
@@ -19,6 +20,6 @@ public class UIManager : MonoBehaviour
         goldDisplayer.text = "" + DataController.GetInstance().GetGold();
         goldPerClickDisplayer.text = "LEVEL: " + DataController.GetInstance().GetLv();
         goldPerSecDisplayer.text = "" + DataController.GetInstance().GetLevel();
-        // goldPerSecDisplayer.text = "EXP: " +  DataController.GetInstance().GetLight();
+        LightDisplayer.text = "EXP: " +  DataController.GetInstance().GetLight();
     }
 }
