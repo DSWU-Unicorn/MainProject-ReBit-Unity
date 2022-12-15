@@ -78,7 +78,9 @@ public class SupplementButton : MonoBehaviour
 
     public void UpdateUI()
     {
-        upgradeDisplayer.text = "영양제 : 100원 \n건강 신호등 회복\nlight: " + DataController.GetInstance().GetLight();
+        // upgradeDisplayer.text = "영양제 : 100원 \n건강 신호등 회복\nlight: " + DataController.GetInstance().GetLight();
+               // upgradeDisplayer.text = "영양제 : 100원";
+
         // upgradeDisplayer.text = upgradeName + "\nCost: " + currentCost + "\nLevel: " + level + "\nNext New GoldPerClick: " + goldByUpgrade;
     }
 }

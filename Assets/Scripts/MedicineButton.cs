@@ -88,7 +88,9 @@ public class MedicineButton : MonoBehaviour
 
     public void UpdateUI()
     {
-        upgradeDisplayer.text = "약 : 600원 \n경험치 절반 획복 \nexp: " + level + "\nlevel: "+ lv +"\nlight: " + DataController.GetInstance().GetLight();
+        // upgradeDisplayer.text = "약 : 600원 \n경험치 절반 획복 \nexp: " + level + "\nlevel: "+ lv +"\nlight: " + DataController.GetInstance().GetLight();
+               // upgradeDisplayer.text = "약 : 600원 ";
+
         // upgradeDisplayer.text = upgradeName + "\nCost: " + currentCost + "\nLevel: " + level + "\nNext New GoldPerClick: " + goldByUpgrade;
     }
 }

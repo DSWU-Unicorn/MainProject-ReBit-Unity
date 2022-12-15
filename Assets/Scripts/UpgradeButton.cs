@@ -86,7 +86,9 @@ public class UpgradeButton : MonoBehaviour
 
     public void UpdateUI()
     {
-        upgradeDisplayer.text = "콜라 : 300원 \n경험치 150 상승\nexp: " + level;
+        // upgradeDisplayer.text = "콜라 : 300원 \n경험치 150 상승\nexp: " + level;
+                //upgradeDisplayer.text = "콜라 : 300원";
+
         // upgradeDisplayer.text = upgradeName + "\nCost: " + currentCost + "\nLevel: " + level + "\nNext New GoldPerClick: " + goldByUpgrade;
     }
 }
