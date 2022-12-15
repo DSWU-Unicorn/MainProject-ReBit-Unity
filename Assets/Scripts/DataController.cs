@@ -72,7 +72,7 @@ public class DataController : MonoBehaviour
                 int expMinus = 100*(2*m_lv + 1) / 10;
                 // int expMinus = DataController.GetInstance().GetLevel() / 10;
                 // if(m_time >= 259200) {
-                if(m_time >= 10 ) {
+                if(m_time >= 50 ) { ///////
                     if(DataController.GetInstance().GetLevel() > 0)
                         // 여기서 하루에 한번씩 감소될 수 있도록 변경해야 함 
                         SetLevel(DataController.GetInstance().GetLevel() - expMinus);
